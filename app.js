@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const https = require("https");
-const dotenv = require("dotenv");
+const dotenv = require("./.gitignore/node_modules/dotenv/types");
 dotenv.config();
 
 const app = express();
